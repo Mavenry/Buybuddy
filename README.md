@@ -6,7 +6,7 @@ This is a fully functional e-commerce platform developed as a student project. I
 
 Collaborators
 - Sunday Bukola Tijesuni  
-- Rabia Aminu  
+- Rabia Aminu Ahmad 
 
 ---
 
