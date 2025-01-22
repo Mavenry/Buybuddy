@@ -39,7 +39,7 @@ const Navbar = () => {
 									>
 										{cart.length}
 									</span>
-								)}.
+								)}
 							</Link>
 						)}
 						{isAdmin && (
