@@ -8,7 +8,7 @@ import { useCartStore } from "../stores/useCartStore";
 const PurchaseSuccessPage = () => {
 	const [isProcessing, setIsProcessing] = useState(true);
 	const { clearCart } = useCartStore();
-	const [error, setError] = useState(null);
+	const [error, setError] = useState(null);,
 
 	useEffect(() => {
 		const handleCheckoutSuccess = async (sessionId) => {
