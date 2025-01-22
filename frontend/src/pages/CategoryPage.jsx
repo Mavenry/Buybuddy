@@ -11,7 +11,7 @@ const CategoryPage = () => {
 
 	useEffect(() => {
 		fetchProductsByCategory(category);
-	}, [fetchProductsByCategory, category]);,
+	}, [fetchProductsByCategory, category]);
 
 	console.log("products:", products);
 	return (
