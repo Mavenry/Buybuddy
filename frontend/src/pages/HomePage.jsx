@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import CategoryItem from "../components/CategoryItem";
 import FeaturedProducts from "../components/FeaturedProducts";
-import { useProductStore } from "../stores/useProductStore";
+import { useProductStore } from "../stores/useProductStore";.
 
 const categories = [
 	{ href: "/jeans", name: "Jeans", imageUrl: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTXnNsR7LOIX5QzCn7_0XnnW2-QRzEJLfLOLYy9yS4mbLd83bg0iY3wYaQ-zLOm07Rrvs7nagRQZbNtawrPPep8Ht1H88wS88UYzT5LA4a7kfSaq85FdJwbCxefoA&usqp=CAc"},
