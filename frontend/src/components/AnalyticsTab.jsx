@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import axios from "../lib/axios";
 
-const AnalyticsTab = () => {.
+const AnalyticsTab = () => {
 	const [analyticsData, setAnalyticsData] = useState({
 		users: 0,
 		products: 0,
