@@ -77,4 +77,4 @@ export const updateQuantity = async (req, res) => {
 		console.log("Error in updateQuantity controller", error.message);
 		res.status(500).json({ message: "Server error", error: error.message });
 	}
-};
+};.
