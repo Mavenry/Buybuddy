@@ -94,4 +94,4 @@ export const useCartStore = create((set, get) => ({
 
 		set({ subtotal, total });
 	},
-}));
+}));,
