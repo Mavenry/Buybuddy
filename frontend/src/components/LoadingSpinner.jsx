@@ -8,6 +8,6 @@ const LoadingSpinner = () => {
 			</div>
 		</div>
 	);
-};.
+};
 
 export default LoadingSpinner;
