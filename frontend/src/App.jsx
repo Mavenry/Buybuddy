@@ -13,8 +13,7 @@ import Navbar from "./components/Navbar";
 import CartPage from "./pages/CartPage";
 import PurchaseCancelPage from "./pages/PurchaseCancelPage";
 import PurchaseSuccessPage from "./pages/PurchaseSuccessPage";
-import { useCartStore } from "./stores/useCartStore";
-import { useUserStore } from "./stores/useUserStore";
+import useCartStore from "./stores/useCartStore";
 
 function App() {
 	const { user, checkAuth, checkingAuth } = useUserStore();
