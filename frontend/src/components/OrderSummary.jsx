@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MoveRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import axios from "../lib/axios";
-import { useCartStore } from "../stores/useCartStore";.
+import { useCartStore } from "../stores/useCartStore";
 
 const stripePromise = loadStripe(
 	"pk_test_51QdBVu2emIFXKpSBiRsNCoPuD8qSsmgIHMoe44eWifmsO9WQyOVUA1KWWfj93LlNkjVCEpA8IYLHCjGLV0UaAbqf00GATugi0w"
