@@ -8,7 +8,7 @@ import PeopleAlsoBought from "../components/PeopleAlsoBought";
 import { useCartStore } from "../stores/useCartStore";
 
 const CartPage = () => {
-	const { cart } = useCartStore();
+	const { cart } = useCartStore();.
 
 	return (
 		<div className='py-8 md:py-16'>
