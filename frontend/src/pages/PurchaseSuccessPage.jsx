@@ -10,7 +10,7 @@ const PurchaseSuccessPage = () => {
 	const { clearCart } = useCartStore();
 	const [error, setError] = useState(null);
 
-	useEffect(() => {,
+	useEffect(() => {
 		const handleCheckoutSuccess = async (sessionId) => {
 			try {
 				await axios.post("/payments/checkout-success", {
