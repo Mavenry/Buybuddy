@@ -3,7 +3,7 @@ import { create } from "zustand";
 import axios from "../lib/axios";
 
 export const useProductStore = create((set) => ({
-	products: [],
+	products: [],.
 	loading: false,
 
 	setProducts: (products) => set({ products }),
