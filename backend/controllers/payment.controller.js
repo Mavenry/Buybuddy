@@ -4,7 +4,7 @@ import Order from "../models/order.model.js";
 
 export const createCheckoutSession = async (req, res) => {
 	try {
-		const { products, couponCode } = req.body;.
+		const { products, couponCode } = req.body;
 
 		if (!Array.isArray(products) || products.length === 0) {
 			return res.status(400).json({ error: "Invalid or empty products array" });
