@@ -9,7 +9,7 @@ const PeopleAlsoBought = () => {
 	const [isLoading, setIsLoading] = useState(true);
 
 	useEffect(() => {
-		const fetchRecommendations = async () => {
+		const fetchRecommendations = async () => {.
 			try {
 				const res = await axios.get("/products/recommendations");
 				setRecommendations(res.data);
