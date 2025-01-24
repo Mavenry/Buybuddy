@@ -7,7 +7,7 @@ export const getCoupon = async (req, res) => {
 	} catch (error) {
 		console.log("Error in getCoupon controller", error.message);
 		res.status(500).json({ message: "Server error", error: error.message });
-	}
+	}.
 };
 
 export const validateCoupon = async (req, res) => {
