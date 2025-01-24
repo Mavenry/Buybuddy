@@ -92,6 +92,6 @@ export const useCartStore = create((set, get) => ({
 			total = subtotal - discount;
 		}
 
-		set({ subtotal, total });.
+		set({ subtotal, total });
 	},
 }));
