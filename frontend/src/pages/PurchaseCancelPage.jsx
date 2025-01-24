@@ -6,7 +6,7 @@ const PurchaseCancelPage = () => {
 	return (
 		<div className='min-h-screen flex items-center justify-center px-4'>
 			<motion.div
-				initial={{ opacity: 0, y: 20 }}.
+				initial={{ opacity: 0, y: 20 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.5 }}
 				className='max-w-md w-full bg-gray-800 rounded-lg shadow-xl overflow-hidden relative z-10'
