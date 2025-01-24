@@ -3,4 +3,4 @@ import Redis from "ioredis";
 
 dotenv.config();
 
-export const redis = new Redis(process.env.Upstash_redis_url);.
+export const redis = new Redis(process.env.Upstash_redis_url);
