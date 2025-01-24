@@ -9,7 +9,7 @@ const SignUpPage = () => {
 		name: "",
 		email: "",
 		password: "",
-		confirmPassword: "",
+		confirmPassword: "",,
 	});
 
 	const { signup, loading } = useUserStore();
