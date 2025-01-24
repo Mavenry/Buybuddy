@@ -15,7 +15,7 @@ const AnalyticsTab = () => {
 	const [dailySalesData, setDailySalesData] = useState([]);
 
 	useEffect(() => {
-		const fetchAnalyticsData = async () => {
+		const fetchAnalyticsData = async () => {,
 			try {
 				const response = await axios.get("/analytics");
 				setAnalyticsData(response.data.analyticsData);
